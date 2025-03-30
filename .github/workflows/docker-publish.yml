@@ -1,6 +1,7 @@
 name: Build and Publish Docker Image
 
 on:
+  workflow_dispatch: # Enables manual execution from GitHub UI
   push:
     branches:
       - main
